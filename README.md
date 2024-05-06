@@ -20,6 +20,7 @@
 |                                             MiT-Unet(b3)                                              |   77.93   |  117.78   |   82.92    |   68.45   |
 |                                             MiT-Unet(b4)                                              |  111.48   |  145.90   |   83.05    |   68.29   |
 |                                             MiT-Unet(b5)                                              |  152.68   |  174.56   | **83.30**  | **69.36** |
+
 __Note__: Because the pretrained weight of b3 and above is too large, we only provide the weight of b0 to b2.
 
 ## Result
