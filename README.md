@@ -24,7 +24,7 @@
 __Note__: Because the pretrained weight of b3 and above is too large, we only provide the weight of b0 to b2.
 
 ## Result
-![result](result.png)
+<img src="result.png" width=20 height=20>
 
 __Note__: Visualization of segmented results on TTPLA dataset.
 
