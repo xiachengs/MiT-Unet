@@ -4,7 +4,7 @@
 ![architecture](architecture.png)
 
 ## Quantitative Performance
-|                                                                                                        | Params(M) | FLOPs(G)  | F1score(%) |  IoU(%)   |
+|                                      Method                                                                 | Params(M) | FLOPs(G)  | F1score(%) |  IoU(%)   |
 |:------------------------------------------------------------------------------------------------------:|:---------:|:---------:|:----------:|:---------:|
 |                              [UNet](https://arxiv.org/pdf/1505.04597.pdf)                              |   31.04   |  218.95   |   78.06    |   60.58   |
 | [SegFormer](https://proceedings.neurips.cc/paper/2021/file/64f1f27bf1b4ec22924fd0acb550c235-Paper.pdf) |   27.35   | **56.70** |   72.35    |   51.10   |
@@ -12,7 +12,7 @@
 |                                                MiT-Unet                                                | **19.27** |   72.25   | **81.32**  | **65.24** |
 
 ## MiT-Unet at different scales
-|                                                                                                                                                                                           | Params(M) | FLOPs(G)  | F1score(%) |  IoU(%)   |
+|                                                                                                                                                                                           | Params(M) | FLOPs(G)  | F1score(%) |  IoU(%)   |                                        Method
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|:---------:|:----------:|:---------:|
 |                                           [MiT-Unet(b0)](https://drive.google.com/file/d/13q7i9BkVh_Uy-0yzbj22OVbilPv_tkgl/view?usp=drive_link)                                           | **4.87**  | **18.48** |   79.51    |   62.25   |
 |                                           [MiT-Unet(b1)](https://drive.google.com/file/d/1iSpxWF0j5aYnHfoD5wl85RJj0xVlTlKY/view?usp=drive_link)                                           |   19.27   |   73.25   |   81.32    |   65.24   |
