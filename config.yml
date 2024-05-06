@@ -1,0 +1,4 @@
+GPU_ID: 0
+SEG_THRESHOLD: 0.5
+PRETRAINED_WEIGHT: data/checkpoints/mit_unet_b0.pth
+PHI: b0
