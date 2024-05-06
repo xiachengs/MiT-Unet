@@ -1,7 +1,7 @@
 # MiT-Unet: Mixed Transformer Unet for Transmission Line Segmentation in UAV Images
 
 ## Network Architecture
-<img src="architecture.png" height=500>
+<img src="architecture.png" height=600>
 
 ## Quantitative Performance
 |                                                   Method                                                    | Params(M) | FLOPs(G)  | F1score(%) |  IoU(%)   |
