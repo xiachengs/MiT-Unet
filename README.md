@@ -28,27 +28,10 @@ __Note__: Because the pretrained weight of b3 and above is too large, we only pr
 
 __Note__: Visualization of segmented results on TTPLA dataset.
 
-## Require
-Please `pip install` the following packages:
-- torch
-- torchvision
-- matplotlib
-- numpy
-- opencv-python
-- tqdm
-- pyyaml
-- thop
-- tensorboardX
-- einops
-- timm
-- scikit-image
-
 ## Test:
 1. Configure environment:
-    
     + Creating a virtual environment in terminal: `conda create -n mitunet python=3.8`.
-    
-    + Installing necessary packages.
+    + Installing necessary packages: `cd /path/to/MiT-Unet-master` `pip install -r requirements.txt`
 2. Test Configuration:
     + Download pretrained weight and move it into `data/checkpoints`.
     + Set the pretraining weight path and weight scale PHI in `config.yml`, ensuring that the weights correspond to PHI, such as b0 weight with a PHI of b0.
