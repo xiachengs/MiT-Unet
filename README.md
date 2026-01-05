@@ -50,8 +50,8 @@ Please `pip install` the following packages:
     
     + Installing necessary packages.
 2. Test Configuration:
-    + Download pretrained weight and move it into `./data/checkpoints`.
+    + Download pretrained weight and move it into `data/checkpoints`.
     + Set the pretraining weight path and weight scale PHI in `config.yml`, ensuring that the weights correspond to PHI, such as b0 weight with a PHI of b0.
-    + Run the `./forward.py` to output test results, which can be selected test images in `./data/images`.
+    + Run the `forward.py` to output test results, which can be selected test images in `data/images`.
 
 
