@@ -14,9 +14,9 @@
 ## MiT-Unet at different scales
 |                                                Method                                                 | Params(M) | FLOPs(G)  | F1score(%) |  IoU(%)   |
 |:-----------------------------------------------------------------------------------------------------:|:---------:|:---------:|:----------:|:---------:|
-| [MiT-Unet(b0)](https://drive.google.com/file/d/1Y0BObyteYe7YFsmMGiHPt-0weoXLWCJ7/view?usp=drive_link) | **4.87**  | **18.48** |   79.51    |   62.25   |
-| [MiT-Unet(b1)](https://drive.google.com/file/d/1Hd2INO8xVylJKylFNYVzJ7870hZvh2lT/view?usp=drive_link) |   19.27   |   73.25   |   81.32    |   65.24   |
-| [MiT-Unet(b2)](https://drive.google.com/file/d/1fFVW3mqyw7RCpP5y0KrS-3Qe86b1VP-z/view?usp=drive_link) |   38.18   |   88.48   |   82.63    |   68.46   |
+| [MiT-Unet(b0)](https://drive.google.com/file/d/1LMostve7NBWveEfFcKzkuROO03xtKVoB/view?usp=sharing) | **4.87**  | **18.48** |   79.51    |   62.25   |
+| [MiT-Unet(b1)](https://drive.google.com/file/d/1uOQg80eS6Gq2X5Ca1UqFb6h6MAPTRHaW/view?usp=sharing) |   19.27   |   73.25   |   81.32    |   65.24   |
+| [MiT-Unet(b2)](https://drive.google.com/file/d/1Ck3GuqoYlCcBYqoxJwUhve4xoQxGVFO1/view?usp=sharing) |   38.18   |   88.48   |   82.63    |   68.46   |
 |                                             MiT-Unet(b3)                                              |   77.93   |  117.78   |   82.92    |   68.45   |
 |                                             MiT-Unet(b4)                                              |  111.48   |  145.90   |   83.05    |   68.29   |
 |                                             MiT-Unet(b5)                                              |  152.68   |  174.56   | **83.30**  | **69.36** |
