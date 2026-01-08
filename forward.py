@@ -35,7 +35,7 @@ def main():
         pretrain_dict = torch.load(pretrained_weight, map_location="cuda:0")
         pretrain_dict_items = pretrain_dict.items() if "state_dict" not in pretrain_dict else pretrain_dict["state_dict"].items()
         for k, v in pretrain_dict_items:
-            k = "mit_unet"+k[9:]
+            k = "mit_unet" + k[9:]
             if k in state_dict:
                 model_dict[k] = v
         state_dict.update(model_dict)
