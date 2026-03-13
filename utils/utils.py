@@ -132,35 +132,7 @@ def visulize_mapping(b_points, size, filename,path):
     for (y1, x1, y2, x2) in b_points:
         img = cv2.line(img, (x1, y1), (x2, y2), (255, 255, 0), thickness=int(0.01*max(size[0], size[1])))
     return img
-
-def caculate_precision(b_points, gt_coords, thresh=0.90):
-    N = len(b_points)
-    if N == 0:
-        return 0, 0
-    ea = np.zeros(N, dtype=np.float32)
-    for i, coord_p in enumerate(b_points):
-        if coord_p[0]==coord_p[2] and coord_p[1]==coord_p[3]:
-            continue
-        l_pred = Line(list(coord_p))
-        for coord_g in gt_coords:
-            l_gt = Line(list(coord_g))
-            ea[i] = max(ea[i], EA_metric(l_pred, l_gt))
-    return (ea >= thresh).sum(), N
-
-def caculate_recall(b_points, gt_coords, thresh=0.90):
-    N = len(gt_coords)
-    if N == 0:
-        return 1.0, 0
-    ea = np.zeros(N, dtype=np.float32)
-    for i, coord_g in enumerate(gt_coords):
-        l_gt = Line(list(coord_g))
-        for coord_p in b_points:
-            if coord_p[0]==coord_p[2] and coord_p[1]==coord_p[3]:
-                continue
-            l_pred = Line(list(coord_p))
-            ea[i] = max(ea[i], EA_metric(l_pred, l_gt))
-    return (ea >= thresh).sum(), N
-
+    
 def coords_sort(coords):
     y1, x1, y2, x2 = coords
     if x1 > x2 or (x1 == x2 and y1 > y2):
