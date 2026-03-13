@@ -6,7 +6,7 @@
 ## Quantitative Performance
 |                                                   Method                                                    | Params(M) | FLOPs(G)  | F1score(%) |  IoU(%)   |
 |:-----------------------------------------------------------------------------------------------------------:|:---------:|:---------:|:----------:|:---------:|
-|                                [UNet](https://arxiv.org/pdf/1505.04597.pdf)                                 |   31.04   |  218.95   |   78.06    |   60.58   |
+|                                [U-Net](https://arxiv.org/pdf/1505.04597.pdf)                                 |   31.04   |  218.95   |   78.06    |   60.58   |
 |   [SegFormer](https://proceedings.neurips.cc/paper/2021/file/64f1f27bf1b4ec22924fd0acb550c235-Paper.pdf)    |   27.35   | **56.70** |   72.35    |   51.10   |
 |                                [Swin-Unet](https://arxiv.org/pdf/2105.05537)                                |  231.96   |  180.32   |   77.35    |   60.24   |
 |                                                  MiT-Unet                                                   | **19.27** |   72.25   | **81.32**  | **65.24** |
